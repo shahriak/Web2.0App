@@ -1,0 +1,37 @@
+/*
+Shahria Kazi CSE 190m Section MK, Tyler Rigsby June 1st 2012
+This CSS file contains style specifications for the "Remember the cow" webpage.
+*/
+
+body, input, button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+body, h1 {
+	margin: 0;
+}
+
+.headfoot {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+}
+
+h1 img {
+	padding-right: 1em;
+	float: left;
+}
+
+#main {
+	padding: 2em;
+}
+
+#main, button, input, a {
+	color: #005AB4;
+}
+
+#incorrect {
+	color: red;
+	font-weight: bold;
+}
